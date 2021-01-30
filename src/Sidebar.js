@@ -1,6 +1,6 @@
 import React from 'react';
 import SidebarRow from './SidebarRow';
-import './Siderbar.css';
+import './Sidebar.css';
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 import WhatshotRoundedIcon from '@material-ui/icons/WhatshotRounded';
 import SubscriptionsRoundedIcon from '@material-ui/icons/SubscriptionsRounded';
