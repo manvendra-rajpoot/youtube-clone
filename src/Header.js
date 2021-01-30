@@ -12,7 +12,7 @@ function Header() {
         <div className='header'>
             
             <div className="header__left">
-            <MenuRoundedIcon />
+            <MenuRoundedIcon className='header__menu header__icon' />
             <img className='header__logo'
             src='https://havecamerawilltravel.com/photographer/files/2020/01/youtube-logo-new.jpg' alt='yt' /> 
             </div>
