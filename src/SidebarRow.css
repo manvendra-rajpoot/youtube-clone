@@ -1,0 +1,36 @@
+.sidebarRow{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.sidebarRow__icon{
+    color: rgb(88, 88, 88);
+    margin-left: 10px;
+    font-size: 22px !important;
+}
+.sidebarRow__title{
+    flex: 1;
+    color: rgb(27, 27, 27);
+    margin-left: 30px;
+    font-weight: 400;
+
+}
+.sidebarRow:hover{
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+.sidebarRow:hover > .sidebarRow__icon{
+    color: rgb(238, 1, 1);
+}
+.sidebarRow:hover > .sidebarRow__title{
+    font-weight: bold;
+}
+.sidebarRow.selected{
+    background-color: rgb(211, 211, 211);
+}
+.sidebarRow.selected> .sidebarRow__icon{
+    color: rgb(238, 1, 1);
+}
+.sidebarRow.selected> .sidebarRow__title{
+    font-weight: bold;
+}
