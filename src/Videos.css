@@ -1,0 +1,12 @@
+.videos{
+    flex: 0.8;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+}
+.videos > h3{
+    margin: 5px 5px 20px 0;
+}
+.videos__cards{
+    display: flex;
+    flex-wrap: wrap;
+}

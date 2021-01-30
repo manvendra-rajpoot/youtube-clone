@@ -7,10 +7,11 @@ import Videos from './Videos';
 function App() {
   return (
     <div className="app">
+      
       <Header />
       <div className="app__page">
         <Sidebar />
-        {/* <Videos /> */}
+        <Videos />
       </div>
     </div>
   );
