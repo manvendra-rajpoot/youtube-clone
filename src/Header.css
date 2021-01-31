@@ -32,10 +32,10 @@
 .header__search>input{
     flex: 1;
     border: none;
-    padding: 7px;
+    padding: 9px;
 }
 .header__searchButton{
-    width: 50px !important;
+    width: 48px !important;
     color: gray;
     background-color: #fafafa;
     border-left: 1px solid lightgray;

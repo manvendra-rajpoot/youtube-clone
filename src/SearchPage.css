@@ -1,0 +1,22 @@
+.searchpage{
+    flex: 0.8;
+    background-color: #f5f5f5;
+    padding: 20px 20px;
+}
+.searchpage__filter{
+    display: flex;
+    align-items: center;
+    color: rgb(88, 88, 88);
+}
+.searchpage__filter > .MuiSvgIcon-root{
+    font-size: 22px !important;
+}
+.searchpage__filter>h6{
+    margin-left: 10px;
+}
+.searchpage > hr{
+    height: 1px;
+    border: none;
+    background-color: lightgray;
+    margin: 10px 0;
+}

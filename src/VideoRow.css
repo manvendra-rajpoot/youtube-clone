@@ -1,0 +1,33 @@
+.videorow{
+    display: flex;
+    margin: 20px 0;
+}
+.videorow > img{
+    height: 140px;
+    width: 250px;
+}
+.videorow__info{
+    margin: 0 20px;
+}
+.videorow__info > h5{
+    font-weight: 400;
+}
+.videorow__info > p{
+    font-size: 13px;
+    color: #606060;
+    margin: 3px 0;
+}
+.videorow__infoChannel{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.videorow__channelIcon{
+    height: 30px !important;
+    width: 30px !important;
+}
+.videorow__infoChannel>p{
+    font-size: 13px;
+    color: #606060;
+    margin-left: 10px;
+}

@@ -20,7 +20,7 @@
 }
 .videocard__text > p{
     font-size: 13px;
-    color: gray;
+    color: #606060;
 }
 .videocard__avatar{
     height: 30px !important;

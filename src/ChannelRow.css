@@ -1,0 +1,32 @@
+.channelrow{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 20px 0;
+}
+.channelrow__logo{
+    height: 130px !important;
+    width: 130px !important;
+    margin: 10px 50px;
+}
+.channelrow__info{
+    display: flex;
+    flex-direction: column;
+}
+.channelrow__infoTitle{
+    display: flex;
+    align-items: center;
+}
+.channelrow__infoTitle>h4{
+    font-weight: 400;
+}
+.channelrow__infoTitle>.MuiSvgIcon-root{
+    font-size: 20px !important;
+    color: rgb(58, 58, 58);
+    margin-left: 10px;
+}
+.channelrow__info >p{
+    color: #606060;
+    font-size: 13px;
+    margin-top: 10px;
+}
