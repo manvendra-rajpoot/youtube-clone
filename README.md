@@ -1,4 +1,3 @@
-# Youtube-klone
+# Youtube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+Built using using ReactJS, Material UI and Youtube API.
